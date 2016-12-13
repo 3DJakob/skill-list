@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+h1, h2, h3, p, a {
+  font-family: sans-serif;
+  color: #fff;
+}
+
+div.container {
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+div.skill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.skill i {
+  color: white;
+}
+
+.skill i::before {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.skill h3 {
+  margin: 0 0 0 16px;
+}
